@@ -48,7 +48,8 @@ th, td { border: 0; }
 	left:0;
 	position:fixed;
 	padding: 0.4em;
-	background: #ECE9E9;
+	/* background: #ECE9E9; */
+	background: #FDFAFA;
 	border-bottom: dotted 1pt #666;
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -67,7 +68,7 @@ th, td { border: 0; }
 	left:0;
 	position: fixed;
 	padding: 0.25em;
-	background: #ECE9E9;
+	background: #FDFAFA;
 	border-top: dotted 1pt #666;
 	text-align: center;
 	font-size: 120%;
@@ -175,13 +176,15 @@ body {
   max-width:900px;
   margin: 0 auto;
 	color: #000;
-	background-color: #ECE9E9;
+	/* background-color: #ECE9E9; */
 	line-height: 1.5em;
 	hyphens: auto;
-	background-image: url("bkg-inv.gif");
+	/* background-image: url("bkg-inv.gif");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: left;
+	background-position: left; */
+	background-image: url("BG_gray.jpg");
+	background-repeat: repeat;
 	/* Attempt to work well on cell phones */
 	-webkit-text-size-adjust:none;
 	-ms-text-size-adjust:none;
